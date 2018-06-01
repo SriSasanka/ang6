@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import {} from '@fort'
+
 import { AppComponent } from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import { CoreComponent } from './core/core.component';
