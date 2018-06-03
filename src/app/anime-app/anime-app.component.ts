@@ -10,6 +10,7 @@ export class AnimeAppComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

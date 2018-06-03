@@ -20,6 +20,7 @@ const appRoutes: Routes = [
     ]},
   {path: 'anime', component: AnimeAppComponent, children: [
       {path: '', component: HomeComponent},
+      {path: 'home', component: HomeComponent},
       {path: 'animelist', component: AnimeListComponent},
       {path: 'genres', component: AnimeGenresComponent}
     ]}
