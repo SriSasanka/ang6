@@ -22,7 +22,11 @@
 <li class="nav-item">
 <a class="nav-link ml-5" [routerLink]="'genres'" style="color: white;">Genres</a>
 </li>
+<li class="nav-item ml-5">
+<a class="nav-link" style="color: white;cursor: pointer;" (click)="logout();">LogOut</a>
+</li>
 </ul>
 </div>
+
 </nav>
 <router-outlet></router-outlet>

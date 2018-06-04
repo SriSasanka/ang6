@@ -16,10 +16,10 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-  }
+}
   onSubmit(form: NgForm) {
     console.log('Form Submitted');
     console.log(form);
-    this.router.navigate(['/anime/home']);
+    this.router.navigate(['/anime']);
   }
 }
